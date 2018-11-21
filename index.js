@@ -1,5 +1,6 @@
 
 function dwarfRollCall (dwarves) {
+  var twoDwarves = dwarves.slice(0, (dwarves.length/2));
   var rollCallArr = [];
 
   for (var i = 0; i < dwarves.length; i += 1) {
@@ -56,3 +57,22 @@ function findTheCheese (foods) {
   
   return 'no cheese!';
 }
+
+
+
+function wordsWithB (words) {
+  var BArray = [];
+  
+  for (var i = 0; i < words.length; i += 1) {
+    var word = words[i];
+    
+    if (word[0] === 'b') {
+      BArray.push(word);
+    }
+  }
+    
+  return BArray;
+}
+
+
+
