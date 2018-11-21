@@ -1,11 +1,7 @@
-<<<<<<< HEAD
+
 function dwarfRollCall (dwarves) {
   var rollCallArr = [];
-=======
-function dwarfRollCall(dwarves) {
-  var rollCallArr = ``;
->>>>>>> 9422ba5940651111f3f8daf1943e20e1158ee81b
-  
+
   for (var i = 0; i < dwarves.length; i += 1) {
     var dwarf = i + 1 + `. ` + dwarves[i] + ` `;
     
@@ -17,7 +13,6 @@ function dwarfRollCall(dwarves) {
 
 
 
-<<<<<<< HEAD
 function summonCaptainPlanet (planeteerCalls){
   var cappedAndExp = [];
   
@@ -28,9 +23,6 @@ function summonCaptainPlanet (planeteerCalls){
   }
   
   return cappedAndExp;
-=======
-function summonCaptainPlanet(planeteerCalls){
->>>>>>> 9422ba5940651111f3f8daf1943e20e1158ee81b
 }
 
 
