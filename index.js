@@ -1,10 +1,10 @@
 
 function dwarfRollCall (dwarves) {
-  var twoDwarves = dwarves.slice(0, (dwarves.length/2));
+  var twoDwarves = dwarves.slice(dwarves.length/2);
   var rollCallArr = [];
 
-  for (var i = 0; i < dwarves.length; i += 1) {
-    var dwarf = i + 1 + `. ` + dwarves[i] + ` `;
+  for (var i = 0; i < twoDwarves.length; i += 1) {
+    var dwarf = i + 1 + `. ` + twoDwarves[i] + ` `;
     
     rollCallArr.push(dwarf);
   }
